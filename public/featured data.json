@@ -1,0 +1,116 @@
+[
+    {
+        "id":1,
+        "logo":"/public/assets/Logo/google-1-1 1.png",
+        "job_title":"Technical Database Engineer",
+        "company_name":"Google LLC",
+        "job_location":"Remote",
+        "location":"Dhaka, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 100K - 150K",
+        "description":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "responsibility":"Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "requirements":"Bachelor degree to complete any reputational university.",
+        "experiences":"2-3 Years in this field.",
+        "information":{
+            "phone": "01750-00 00 00",
+            "email": "google@gmail.com",
+            "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id":2,
+        "logo":"/public/assets/Logo/netflix-4 1.png",
+        "job_title":"Senior Product Designer",
+        "company_name":"Netflix",
+        "job_location":"Onsite",
+        "location":"Dhaka, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 100K - 120K",
+        "description":"The Senior Product Designer is responsible for leading the design of innovative and user-centric digital products. They will work collaboratively with cross-functional teams to define the user experience, create wireframes and prototypes, and execute high-fidelity visual designs.",
+        "responsibility":"Lead the design process for digital products, from ideation to final delivery, ensuring that design solutions are innovative, user-centered, and aligned with business goals.",
+        "requirements":"Bachelor's degree in a relevant field such as Graphic Design",
+        "experiences":"1-2 Years in this field.",
+        "information":{
+            "phone": "01850-50 60 00",
+            "email": "netflix.org@gmail.com",
+            "address": "Mirpur 1, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id":3,
+        "logo":"/public/assets/Logo/tesla-9 1.png",
+        "job_title":"Software Engineer",
+        "company_name":"Tesla",
+        "job_location":"Onsite",
+        "location":"Dhaka, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 200K - 350K",
+        "description":"The Senior Software Engineer is responsible for designing, developing, and maintaining complex software applications. They will work collaboratively with cross-functional teams to define the software requirements, design solutions, and ensure that the code is scalable, reliable, and maintainable. ",
+        "responsibility":"Collaborate with cross-functional teams including product management, design, and quality assurance to define software requirements and design solutions that meet the needs of the business and the end-users.",
+        "requirements":"Bachelor's degree in Computer Science, Software Engineering",
+        "experiences":"2-3 Years in this field.",
+        "information":{
+            "phone": "01910-00 10 09",
+            "email": "tesla@gmail.com",
+            "address": "Savar, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id":4,
+        "logo":"/public/assets/Logo/google-1-1 1-1.png",
+        "job_title":"Google Ads Specialist",
+        "company_name":"Google LLC",
+        "job_location":"Remote",
+        "location":"Dhaka, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 120K - 150K",
+        "description":"campaigns to drive traffic, leads, and conversions for clients. They will work collaboratively with cross-functional teams to understand client goals, develop campaign strategies, and execute campaigns that deliver measurable results.",
+        "responsibility":"Collaborate with cross-functional teams, including account managers, designers, and developers, to understand client goals, develop campaign strategies, and execute campaigns that deliver measurable results.",
+        "requirements":"Bachelor's degree in Marketing, Advertising, or a related field.",
+        "experiences":"2-3 Years in this field.",
+        "information":{
+            "phone": "01900-05 00 99",
+            "email": "google@gmail.com",
+            "address": "Badda, Dhaka, Bangladesh"
+        }
+    },
+    {
+        "id":5,
+        "logo":"/public/assets/Logo/microsoft.png",
+        "job_title":"Security Engineering",
+        "company_name":"Microsoft 365",
+        "job_location":"Remote",
+        "location":"Chowmatha, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 260K - 300K",
+        "description":"The Security Engineer is responsible for ensuring the security and integrity of an organization's information systems and networks. They will work collaboratively with cross-functional teams to develop and implement security measures, conduct security assessments, and respond to security incidents.",
+        "responsibility":"Develop and implement security measures to protect information systems and networks from security threats. Conduct security assessments and vulnerability testing to identify security risks and develop solutions to mitigate them.",
+        "requirements":"Bachelor's degree in Computer Science, Cybersecurity, or a related field.",
+        "experiences":"3-4 Years in this field.",
+        "information":{
+            "phone": "01750-10 07 97",
+            "email": "microsoft@gmail.com",
+            "address": "Chowmatha, Barishal, Bangladesh"
+        }
+    },
+    {
+        "id":6,
+        "logo":"/public/assets/Logo/amazon.png",
+        "job_title":"Product Manager",
+        "company_name":"Amazon",
+        "job_location":"Remote",
+        "location":"Dhaka, Bangladesh",
+        "job_type":"Full Time",
+        "salary":"Salary : 110K - 150K",
+        "description":"The Product Manager is responsible for leading the development and launch of products that meet customer needs and drive business growth. They will work collaboratively with cross-functional teams to define product requirements, develop product roadmaps, and prioritize features based on customer and business needs.",
+        "responsibility":"Define and manage product vision, strategy, and roadmap in alignment with customer and business needs. Develop product requirements and specifications, working collaboratively with cross-functional teams including engineering, design, sales, and marketing.",
+        "requirements":"Bachelor's degree in Business, Marketing, Engineering or a related field.",
+        "experiences":"No expriences needed",
+        "information":{
+            "phone": "01390-60 64 70",
+            "email": "amazon@gmail.com",
+            "address": "Mohammadpur, Dhaka, Bangladesh"
+        }
+    }
+]

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex justify-evenly items-center mt-12 '>
+        <div className='flex justify-evenly items-center pt-12 bg-[#F9F9FF]'>
             <NavLink to="/"><h1 className='font-bold text-4xl'>PostJobFree</h1></NavLink>
             <div className='flex gap-10 justify-between text-xl font-semibold text-[#757575]'>
                 <NavLink to={"/"} className={({ isActive}) =>isActive? "text-[#8786FE]": "hover:text-[#8786FE]"}>Home</NavLink>

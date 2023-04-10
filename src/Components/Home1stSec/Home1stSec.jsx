@@ -2,7 +2,7 @@ import React from "react";
 
 const Home1stSec = () => {
   return (
-    <div className="flex items-center justify-center gap-16">
+    <div className="flex px-24 items-center justify-center gap-16 bg-[#F9F9FF]">
       <div>
         <h1 className="text-7xl font-bold leading-tight">One Step <br /> Closer To Your <br /> <span className="text-[#8C81FF]">Dream Job</span></h1>
         <p className="text-[#8E8E8E] py-10 text-lg">Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
