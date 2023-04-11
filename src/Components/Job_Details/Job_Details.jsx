@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {useParams} from "react-router-dom"
 import jobData from "../../../public/featured data.json"
+import { addToDb } from "../../utilities/fakedb";
 
 const Job_Details = () => {
     const {id} = useParams()
@@ -23,7 +24,7 @@ const Job_Details = () => {
             <p className="font-bold">Experiences:</p>
             <p>{itemDetails.experiences}</p>
         </div>
-        <div className="flex flex-col gap-6 w-96">
+        <div className="flex flex-col gap-6 w-96  text-[#474747]">
             <div className="bg-[#F4F2FF] p-10 rounded-lg">
                 <h1 className="font-bold text-xl mb-4">Job Details</h1>
                 <hr className=""/>
@@ -35,7 +36,7 @@ const Job_Details = () => {
                 <p><span className="font-bold">Email : </span> {itemDetails.email}</p>
                 <p className="mt-4"><span className="font-bold">Address : </span> {itemDetails.address}</p>
             </div>
-            <button className="bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-4 px-6 text-white font-semibold text-2xl rounded-lg hover:bg-[#9774FF] hover:text-[#87A2FE]">Apply Now</button>
+            <button onClick={()=>addToDb(itemDetails.id)} className="bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-4 px-6 text-white font-semibold text-2xl rounded-lg hover:bg-[#9774FF] hover:text-[#87A2FE]">Apply Now</button>
         </div>
       </div>
     </div>

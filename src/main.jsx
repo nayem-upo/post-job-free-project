@@ -8,8 +8,8 @@ import Job_Details from "./Components/Job_Details/Job_Details";
 import Applied_Jobs from "./Components/Applied_Jobs/Applied_Jobs";
 import Statistics from "./Components/Statistics/Statistics";
 import Blog from "./Components/Blog/Blog";
+import jobLoader from "./utilities/getData";
 
-let itemDetail;
 
 const router = createBrowserRouter([
   {
@@ -23,6 +23,7 @@ const router = createBrowserRouter([
       {
         path: "/applied",
         element: <Applied_Jobs></Applied_Jobs>,
+        loader: jobLoader
       },
       {
         path: "/details/:id",
