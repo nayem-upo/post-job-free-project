@@ -12,15 +12,6 @@ const Applied_Jobs = () => {
 
   },[])
 
-  const remote = ()=>{
-    const remoteData = detailsData.filter(remote=> remote.job_location == "Remote")
-    setJobTyple(remoteData)
-    
-  }
-  const onsite = ()=>{
-    const onsiteData = detailsData.filter(onsite=> onsite.job_location == "Onsite")
-    setJobTyple(onsiteData)
-  }
 
   const [open, setOpen] = useState(false)
   return (
