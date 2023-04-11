@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot , faSackDollar} from '@fortawesome/free-solid-svg-icons'
+import React, { createContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const Featured = () => {
     const [number, setNumber] = useState(4)
+    const navigate = useNavigate()
     const [features, setFeatures] = useState([])
     useEffect(()=>{
         fetch('featured data.json')
@@ -29,8 +30,8 @@ const Featured = () => {
                             <p className='border px-2 py-2 rounded-md'>{item.job_location}</p>
                             <p className='border px-3 py-2 rounded-md'>{item.job_type}</p>
                         </div>
-                        <p className='font-semibold text-xl my-4 text-[#757575] flex gap-6'><span><FontAwesomeIcon icon={faLocationDot} /> {item.location}</span> <span><FontAwesomeIcon icon={faSackDollar} /> {item.salary}</span></p>
-                        <button className="w-[35%] bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-2 px-4 text-white font-semibold text-2xl rounded hover:bg-[#9774FF] hover:text-[#87A2FE]">View Details</button>
+                        <p className='font-semibold text-xl my-5 text-[#757575] items-center flex gap-6'><span className='flex gap-2 items-center'> <img className='w-7' src="../../../public/assets/Icons/Frame-4.png" alt="" /> {item.location}</span> <span className='flex gap-2 items-center'><img className='w-7' src="../../../public/assets/Icons/Frame.png" alt="" /> {item.salary}</span></p>
+                        <button onClick={()=>navigate(`/details/${item.id}`)} className="w-[35%] bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-2 px-4 text-white font-semibold text-2xl rounded hover:bg-[#9774FF] hover:text-[#87A2FE]">View Details</button>
                     </div> 
                     )
                 }
