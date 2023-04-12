@@ -17,9 +17,9 @@ const AppliedCard = ({detail}) => {
                     </div>
                     <p className='font-semibold text-xl my-5 text-[#757575] items-center flex gap-6'>
                         <span className='flex gap-2 items-center'> 
-                        <img className='w-7' src="../../../public/assets/Icons/Frame-4.png" alt="" /> {location}</span> 
+                        <img className='w-7' src="/assets/Icons/Frame-4.png" alt="" /> {location}</span> 
                         <span className='flex gap-2 items-center'>
-                        <img className='w-7' src="../../../public/assets/Icons/Frame.png" alt="" /> {salary}</span></p>
+                        <img className='w-7' src="public/assets/Icons/Frame.png" alt="" /> {salary}</span></p>
                 </div>
             </div>
             <button onClick={()=>navigate(`/details/${id}`)} className="me-5 w-50 bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-3 px-4 text-white font-semibold text-2xl rounded hover:bg-[#9774FF] hover:text-[#87A2FE]">View Details</button>

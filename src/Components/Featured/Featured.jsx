@@ -19,7 +19,7 @@ const Featured = () => {
         <div className='mt-32 text-center md:w-[1150px] mx-auto mb-20'>
             <h1 className='text-5xl font-bold'>Featured Jobs</h1>
             <p className='text-[#8E8E8E] py-8 text-lg'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            <div className='md:grid md:grid-cols-2 gap-4 mb-10 justify-evenly'>
+            <div className='grid mx-auto w-[90%] md:w-[100%] md:grid-cols-2 gap-7 md:gap-4 mb-10 md:justify-evenly'>
                 {
                     lessItems.map(item => 
                     <div key={item.id} className='border flex flex-col justify-between rounded-lg p-9 text-left shadow-md'>
@@ -31,7 +31,7 @@ const Featured = () => {
                             <p className='border px-3 py-2 rounded-md'>{item.job_type}</p>
                         </div>
                         <p className='font-semibold text-xl my-5 text-[#757575] items-center flex gap-6'><span className='flex gap-2 items-center'> <img className='w-7' src="../../../public/assets/Icons/Frame-4.png" alt="" /> {item.location}</span> <span className='flex gap-2 items-center'><img className='w-7' src="../../../public/assets/Icons/Frame.png" alt="" /> {item.salary}</span></p>
-                        <button onClick={()=>navigate(`/details/${item.id}`)} className="w-[35%] bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-2 px-4 text-white font-semibold text-2xl rounded hover:bg-[#9774FF] hover:text-[#87A2FE]">View Details</button>
+                        <button onClick={()=>navigate(`/details/${item.id}`)} className="md:w-[35%] bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-2 px-4 text-white font-semibold text-2xl rounded hover:bg-[#9774FF] hover:text-[#87A2FE]">View Details</button>
                     </div> 
                     )
                 }
