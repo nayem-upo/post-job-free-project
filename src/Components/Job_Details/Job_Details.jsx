@@ -24,17 +24,18 @@ const Job_Details = () => {
             <p className="font-bold">Experiences:</p>
             <p>{itemDetails.experiences}</p>
         </div>
-        <div className="flex flex-col gap-6 w-96  text-[#474747]">
+        <div className="flex flex-col gap-6 w-[450px]  text-[#474747]">
             <div className="bg-[#F4F2FF] p-10 rounded-lg">
                 <h1 className="font-bold text-xl mb-4">Job Details</h1>
                 <hr className=""/>
-                <p className="leading-10 mt-2"><span className="font-bold">Salary :</span> {itemDetails.salary}</p>
-                <p><span className="font-bold">Job Title :</span> {itemDetails.job_title}</p>
+                <p className="leading-10 mt-2 flex items-center gap-1"><img className='w-6 h-full' src="../../../public/assets/Icons/Frame.png" alt="" /> <span className="font-bold">Salary : </span> {itemDetails.salary}</p>
+                <p className="flex"><span className="font-bold flex gap-1 items-center"><img className='w-6 h-full' src="../../../public/assets/Icons/Frame-1.png" alt="" />Job Title : </span> {itemDetails.job_title}</p>
                 <h1 className="font-bold text-xl my-4">Contact Information</h1>
                 <hr />
-                <p><span className="font-bold leading-10">Phone : </span> {itemDetails.phone}</p>
-                <p><span className="font-bold">Email : </span> {itemDetails.email}</p>
-                <p className="mt-4"><span className="font-bold">Address : </span> {itemDetails.address}</p>
+                <p className="flex items-center gap-1"><img className='w-6 h-full' src="../../../public/assets/Icons/Frame-2.png" alt="" /><span className="font-bold leading-10">Phone : </span> {itemDetails.phone}</p>
+                <p className="flex gap-1 items-center"><img className='w-6 h-full' src="../../../public/assets/Icons/Frame-3.png" alt="" /><span className="font-bold">Email : </span> {itemDetails.email}</p>
+                
+                <p className="mt-4 flex gap-1"><img className='w-7 h-full' src="../../../public/assets/Icons/Frame-4.png" alt="" /> <span><span className="font-bold">Address:</span> {itemDetails.address}</span></p>
             </div>
             <button onClick={()=>addToDb(itemDetails.id)} className="bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-4 px-6 text-white font-semibold text-2xl rounded-lg hover:bg-[#9774FF] hover:text-[#87A2FE]">Apply Now</button>
         </div>

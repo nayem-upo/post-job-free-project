@@ -1,0 +1,42 @@
+[
+  {
+    "name": "",
+    "Obtain":0,
+    "Out_Of":0
+  },
+  {
+    "name": "Assignment 1",
+    "Obtain": 46,
+    "Out_Of": 50
+  },
+  {
+    "name": "Assignment 2",
+    "Obtain": 26,
+    "Out_Of": 30
+  },
+  {
+    "name": "Assignment 3",
+    "Obtain": 49,
+    "Out_Of": 50
+  },
+  {
+    "name": "Assignment 4",
+    "Obtain": 30,
+    "Out_Of": 60
+  },
+  {
+    "name": "Assignment 5",
+    "Obtain": 44,
+    "Out_Of": 60
+  },
+  {
+    "name": "Assignment 6",
+    "Obtain": 52,
+    "Out_Of": 60
+  },
+  {
+    "name": "Assignment 7",
+    "Obtain": 60,
+    "Out_Of": 60
+  }
+]
