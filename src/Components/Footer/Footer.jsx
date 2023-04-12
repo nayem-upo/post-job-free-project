@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-6">
           <h1 className="text-2xl">Product</h1>
-          <p>Prototype</p>
+          <p className="">Prototype</p>
           <p>Plans & Pricing</p>
           <p>Customers</p>
           <p>Integrations</p>
