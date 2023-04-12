@@ -22,7 +22,7 @@ const Featured = () => {
             <div className='md:grid md:grid-cols-2 gap-4 mb-10 justify-evenly'>
                 {
                     lessItems.map(item => 
-                    <div key={item.id} className='border flex flex-col justify-between rounded-lg p-9 text-left'>
+                    <div key={item.id} className='border flex flex-col justify-between rounded-lg p-9 text-left shadow-md'>
                         <img className='w-36 pb-8' src={item.logo} alt="" />
                         <h1 className='font-bold text-2xl text-[#474747]'>{item.job_title}</h1>
                         <p className='font-semibold my-4 text-xl text-[#757575]'>{item.company_name}</p>
