@@ -25,9 +25,10 @@ const Applied_Jobs = () => {
   const [open, setOpen] = useState(false)
   return (
     <div className="">
+      <img className="absolute top-0 right-0 w-[20%]" src="/assets/All Images/Vector-1.png" alt="" />
       <div
         style={{
-          backgroundImage: `url('../../../public/assets/All Images/Vector.png')`,
+          backgroundImage: `url('/assets/All Images/Vector.png')`,
         }}
         className="bg-left-bottom bg-no-repeat py-32 text-center mx-auto bg-[#F9F9FF]"
       >

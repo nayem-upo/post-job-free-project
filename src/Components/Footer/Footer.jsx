@@ -11,7 +11,7 @@ const Footer = () => {
             full potential. Join the thousands of job seekers who have found
             their dream job with PostJobFree today.
           </p>
-          <img className="cursor-pointer" src="../../../public/assets/Icons/Group 9969.png" alt="" />
+          <img className="cursor-pointer" src="/assets/Icons/Group 9969.png" alt="" />
         </div>
         <div className="flex flex-col gap-6">
           <h1 className="text-2xl">Company</h1>

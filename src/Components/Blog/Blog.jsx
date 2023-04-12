@@ -5,10 +5,11 @@ const Blog = () => {
     <div>
       <div
         style={{
-          backgroundImage: `url('../../../public/assets/All Images/Vector.png')`,
+          backgroundImage: `url('/assets/All Images/Vector.png')`,
         }}
         className="drop-shadow-xl bg-left-bottom bg-no-repeat py-32 text-center mx-auto bg-[#F9F9FF]"
       >
+        <img className="absolute -top-28 right-0" src="/assets/All Images/Vector-1.png" alt="" />
         <h1 className="text-5xl font-bold">Answering common questions in react</h1>
       </div>
       

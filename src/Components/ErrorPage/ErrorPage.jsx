@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <div className=" mb-20">
+        <img className="absolute right-0 w-[20%]" src="public/assets/All Images/Vector-1.png" alt="" />
       <div  style={{
-          backgroundImage: `url('../../../public/assets/All Images/Vector.png')`,
+          backgroundImage: `url('public/assets/All Images/Vector.png')`,
         }}
         className="shadow-2xl bg-left-bottom bg-no-repeat py-40 text-center bg-[#F9F9FF]">
         <h1 className="text-[#7E90FE] text-9xl pb-2">404</h1>

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "logo": "/public/assets/Logo/google-1-1 1.png",
+        "logo": "/assets/Logo/google-1-1 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "job_location": "Remote",
@@ -18,7 +18,7 @@
     },
     {
         "id": 2,
-        "logo": "/public/assets/Logo/netflix-4 1.png",
+        "logo": "/assets/Logo/netflix-4 1.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "job_location": "Onsite",
@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "logo": "/public/assets/Logo/tesla-9 1.png",
+        "logo": "/assets/Logo/tesla-9 1.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "job_location": "Onsite",
@@ -52,7 +52,7 @@
     },
     {
         "id": 4,
-        "logo": "/public/assets/Logo/google-1-1 1-1.png",
+        "logo": "/assets/Logo/google-1-1 1-1.png",
         "job_title": "Postdoctoral Researcher",
         "company_name": "Metaverse",
         "job_location": "Onsite",
@@ -69,7 +69,7 @@
     },
     {
         "id": 5,
-        "logo": "/public/assets/Logo/microsoft.png",
+        "logo": "/assets/Logo/microsoft.png",
         "job_title": "Security Engineering",
         "company_name": "Microsoft 365",
         "job_location": "Remote",
@@ -86,7 +86,7 @@
     },
     {
         "id": 6,
-        "logo": "/public/assets/Logo/amazon.png",
+        "logo": "/assets/Logo/amazon.png",
         "job_title": "Product Manager",
         "company_name": "Amazon",
         "job_location": "Remote",

@@ -9,7 +9,7 @@ const Home1stSec = () => {
         <button className='mb-10 bg-gradient-to-l from-[#8786FE] via-purple-500 to-purple-400 py-4 px-6 text-white font-semibold text-2xl rounded-lg hover:bg-[#9774FF] hover:text-[#87A2FE]'>Get Started</button>
       </div>
       <div>
-        <img className="mt-10" src="../../../public/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+        <img className="mt-10" src="/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
       </div>
     </div>
   );

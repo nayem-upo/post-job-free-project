@@ -1,21 +1,21 @@
 [
     {
-        "logo": "/public/assets/Icons/accounts 1.png",
+        "logo": "/assets/Icons/accounts 1.png",
         "title": "Account & Finance",
         "job_amount": "300 Jobs Available"
     },
     {
-        "logo": "/public/assets/Icons/business 1.png",
+        "logo": "/assets/Icons/business 1.png",
         "title": "Creative Design",
         "job_amount": "100+ Jobs Available"
     },
     {
-        "logo": "/public/assets/Icons/social-media 1.png",
+        "logo": "/assets/Icons/social-media 1.png",
         "title": "Marketing & Sales",
         "job_amount": "150 Jobs Available"
     },
     {
-        "logo": "/public/assets/Icons/chip 1.png",
+        "logo": "/assets/Icons/chip 1.png",
         "title": "Engineering Job",
         "job_amount": "224 Jobs Available"
     }
