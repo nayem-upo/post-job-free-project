@@ -11,12 +11,11 @@ import Blog from "./Components/Blog/Blog";
 import jobLoader from "./utilities/getData";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layouts></Layouts>,
-    errorElement: <ErrorPage/> ,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
       {
         path: "/applied",
         element: <Applied_Jobs></Applied_Jobs>,
-        loader: jobLoader
+        loader: jobLoader,
       },
       {
         path: "/details/:id",
@@ -34,12 +33,12 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
-        loader: ()=>fetch('assignmentStatistics.json')
+        loader: () => fetch("assignmentStatistics.json"),
       },
       {
         path: "/blog",
         element: <Blog></Blog>,
-      }
+      },
     ],
   },
 ]);

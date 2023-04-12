@@ -11,7 +11,11 @@ const Footer = () => {
             full potential. Join the thousands of job seekers who have found
             their dream job with PostJobFree today.
           </p>
-          <img className="cursor-pointer" src="/assets/Icons/Group 9969.png" alt="" />
+          <img
+            className="cursor-pointer"
+            src="/assets/Icons/Group 9969.png"
+            alt=""
+          />
         </div>
         <div className="flex flex-col md:gap-6">
           <h1 className="text-2xl">Company</h1>
@@ -40,10 +44,15 @@ const Footer = () => {
           <p>+1 777 - 978 - 5570</p>
         </div>
       </div>
-      <hr className="w-[80%] mx-auto mb-16 border-[#7E90FE] opacity-20"/>
+      <hr className="w-[80%] mx-auto mb-16 border-[#7E90FE] opacity-20" />
       <div className="md:flex text-center justify-between mx-[10%]">
-        <p>@2023 <span className="font-bold">PostJobFree</span>. All Rights Reserved</p>
-        <p>Powered by <span className="font-bold">PostJobFree</span></p>
+        <p>
+          @2023 <span className="font-bold">PostJobFree</span>. All Rights
+          Reserved
+        </p>
+        <p>
+          Powered by <span className="font-bold">PostJobFree</span>
+        </p>
       </div>
     </div>
   );
