@@ -14,7 +14,7 @@ const Category = () => {
             <div className='flex justify-center gap-10'>
                 {
                     categorys.map(category=> 
-                    <div key={category.title} className='bg-[#efecff5f] p-10 w-80'>
+                    <div key={category.title} className='bg-[#efecff5f] p-10 w-80 rounded-md shadow-lg'>
                         <img className='bg-[#e5e1ff89] rounded-lg p-3' src={category.logo} alt="" />
                         <h1 className='text-left mt-6 mb-2 font-semibold text-2xl'>{category.title}</h1>
                         <p className='text-left text-[#A3A3A3]'>{category.job_amount}</p>

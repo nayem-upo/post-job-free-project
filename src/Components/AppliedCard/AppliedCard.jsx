@@ -5,7 +5,7 @@ const AppliedCard = ({detail}) => {
     const navigate = useNavigate()
     const {id, logo, job_title, company_name, job_location, job_type, salary, location} = detail
     return (
-        <div className='flex items-center rounded-lg border justify-between p-6'>
+        <div className='flex items-center rounded-lg border justify-between p-6  shadow-md'>
             <div className='flex gap-5 items-center'>
                 <img className='w-56 h-full rounded-lg bg-[#F4F4F4] px-10 py-20' src={logo} alt="" />
                 <div className='font-semibold text-xl my-5 text-[#757575] items-center'>

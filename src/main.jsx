@@ -9,12 +9,14 @@ import Applied_Jobs from "./Components/Applied_Jobs/Applied_Jobs";
 import Statistics from "./Components/Statistics/Statistics";
 import Blog from "./Components/Blog/Blog";
 import jobLoader from "./utilities/getData";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layouts></Layouts>,
+    errorElement: <ErrorPage/> ,
     children: [
       {
         path: "/",
